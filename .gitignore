@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本地数据：不要提交自己的冰箱记录
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/*.sqlite
+data/*.sqlite3
+
+# PyCharm
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
